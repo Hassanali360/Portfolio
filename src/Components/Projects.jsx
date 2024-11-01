@@ -22,6 +22,14 @@ const projectsData = [
     technologies: [ "Javascript", "React"],
     githubLink: "https://github.com/Hassanali360/tour_and_travel",
     liveLink: "https://tour-and-travel-iota.vercel.app/"
+  },
+
+  {
+    title: "My Portfolio",
+    description: "Portfolio is a clean static website showcasing the skills, projects, and professional background of me, a front-end developer with a focus on creating responsive, user-centered web applications ",
+    technologies: [ "Javascript", "React", "Framer-motion"],
+    githubLink: "https://github.com/Hassanali360/Portfolio",
+    liveLink: "https://portfolio-two-beige-56.vercel.app/"
   }
 ];
 
