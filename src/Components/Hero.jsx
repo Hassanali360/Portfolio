@@ -16,8 +16,8 @@ const Hero = () => {
       </h1>
 
       {/* Subheading */}
-      <h2 className="mt-4 text-xl md:text-2xl font-semibold text-primary1 font-poppins">
-        A Front End Developer.
+      <h2 className="mt-4 text-xl md:text-2xl font-semibold text-primary1 font-poppins flex gap-3">
+        A <p className='text-secondary'> Full Stack </p> Web Developer.
       </h2>
 
       {/* Description */}
