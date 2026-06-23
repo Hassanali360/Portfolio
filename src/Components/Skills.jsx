@@ -1,19 +1,22 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass, FaGitAlt, FaNodeJs } from 'react-icons/fa';
-import { SiTypescript, SiMongodb, SiExpress } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass, FaGitAlt, FaNodeJs, } from 'react-icons/fa';
+import { SiTypescript, SiMongodb, SiExpress, SiRedis } from 'react-icons/si';
 
 // Skill data with associated icons
 const skills = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
   { name: "Tailwind CSS", icon: <FaCss3Alt className="text-blue-500" /> },
   { name: "JavaScript", icon: <FaJs className="text-yellow-500" /> },
+  { name: "React Native", icon:  <FaReact  color="#61DBFB" /> },
   { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
   { name: "React", icon: <FaReact className="text-cyan-500" /> },
   { name: "SASS", icon: <FaSass className="text-pink-500" /> },
   { name: "Git", icon: <FaGitAlt className="text-orange-700" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
   { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> },
-  { name: "Express.js", icon: <SiExpress className="text-gray-500" /> },
+  { name: "Redis", icon: <SiRedis className="text-red-500" /> },
+  { name: "Express.js", icon: <SiExpress className="text-gray-700" /> },
+ 
 ];
 
 const Skills = () => {

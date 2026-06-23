@@ -3,11 +3,11 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projectsData = [
   {
-    title: "Mind Leap",
-    description: "A mental health website provides resources, support, and information on mental well-being. It typically includes articles, self-help tools, therapy options, and community forums to help users manage stress, anxiety, depression, and other mental health issues. The site often emphasizes accessibility and confidentiality, of.",
+    title: "Plant Disease Detection",
+    description: "A Mobile App for detecting plant diseases using Machine Learning. The application allows users to upload images of plants and receive instant diagnosis and treatment recommendations.",
     technologies: ["TypeScript", "React", "Framer Motion"],
-    githubLink: "https://github.com/Hassanali360/Mind-Leap---React-JS",
-    liveLink: "https://mind-leap-react-js.vercel.app/"
+    githubLink: "https://github.com/Hassanali360/FYP-Plants-disease-dectection---react-native",
+   
   },
   {
     title: "Techpigeon - Portal",
